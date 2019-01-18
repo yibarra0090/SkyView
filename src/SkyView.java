@@ -22,6 +22,11 @@ public class SkyView {
                     scannedIndex++;
                 }
             }
+            for (int col = 0; col < view[0].length; col++)
+            {
+                System.out.print(view[row][col] + " ");
+            }
+            System.out.println();
         }
     }
     public double getAverage(int startRow, int endRow, int startCol, int endCol)
